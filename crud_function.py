@@ -29,7 +29,6 @@ def check_and_populate_products():
                 'INSERT INTO Products(title, description, price) VALUES (?, ?, ?)',
                 (f'Продукт {i}', f'Описание {i}', f'{i*100}')
             )
-
     else:
         pass
 
